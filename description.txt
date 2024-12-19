@@ -1,0 +1,20 @@
+<!--
+The goal today is to get a few routes working by fetching data from DB.
+You are to 
+1. Download the JSON file from course material. Create a new DB from Compass, create a new collection in this new DB, import the JSON file to this new collection
+2. Create a new directory and create a node project out of it , saying npm init inside that new folder
+3. Your app needs to talk to MongoDB using Mongoose. So , install mongoose and express saying 'npm i mongoose', 'npm i express' at cmd prompt for the project.
+4. Download server.js and songSchema.js in to your project folder
+5. server.js code is partially written for you, you need to modify the code where it says **
+6. Modify the code such that the following routes work --
+    / returns message "Reached BackEnd Server"
+    /artists returns array of distinct artists
+    /artists/bryanadams returns an array of BryanAdams' songs without _id
+    /artists/BillieEilish returns an array of BilliEilish's songs without _id 
+    /band/beatles returns an array of songs by beatles without _id
+    /artists/billyjoel returns 'no songs found'
+7. Make sure the url you type below has the ipaddress and does not have '/' at the end
+-->
+<config>
+<url value=""></url>
+</config>
